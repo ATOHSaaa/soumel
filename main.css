@@ -1,0 +1,136 @@
+body {
+    font-family:YakuHanJP, "Roboto", "Noto Sans JP",sans-serif;
+    letter-spacing: 0em;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #FBFAF7;
+    color: rgb(10, 10, 55);
+    margin: 0;
+}
+
+
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    border-bottom: rgb(10, 10, 55) double 8px;
+    padding-top: 24px;
+}
+
+.header-title {
+    font-size: 2em;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.container span{
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 1.8em;
+    font-weight: 900;
+    color: #FBFAF7;
+    -webkit-text-stroke: 2px rgb(10, 10, 55);
+}
+
+.circle-about {
+    margin-top: 100px;
+    margin-bottom:12px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 800;
+    text-decoration: underline ;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+
+.circle-detail {
+    text-align: center;
+    line-height: 1.8em;
+    margin-bottom: 40px;
+    width: 100%;
+    padding-bottom: 100px;
+    border-bottom: rgb(10, 10, 55) solid 8px;
+    font-weight: 600;
+}
+
+h2 {
+    background-color: rgb(10, 10, 55);
+    color: white;
+    display: inline-block;
+    padding: 4px 20px;
+    border-radius: 4px;
+    margin-bottom: 0px;
+}
+
+.h2-detail {
+    margin-top: 24px;
+    border-left: rgb(10, 10, 55) solid 8px;
+    padding-left: 8px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px 20px;
+    margin-top: 36px;
+}
+
+.book-item {
+    width: 30%;
+    font-size: 0.9em;
+}
+
+.book-item img {
+    width: 100%;
+}
+
+.books {
+    font-weight: 600;
+    padding-bottom: 80px;
+    margin-bottom: 40px;
+    border-bottom: rgb(10, 10, 55) solid 8px;
+}
+
+.member-item img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+.member-item {
+    width: 18%;
+}
+
+.member-item p{
+   text-align: center;
+   margin-top: 0;
+   font-weight: 600;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 720px){
+
+    .header-title {
+        font-size: 1.8em;
+        text-align: center;
+        margin: 20px 0 0 20px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .book-item {
+        width: 45%;
+    }
+
+    .member-item {
+        width: 30%;
+    }
+}
